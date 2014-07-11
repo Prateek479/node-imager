@@ -1,9 +1,25 @@
 {
-  "author": "Madhusudhan Srinivasa <me@madhums.me> (http://madhums.me/)",
+  "author": {
+    "name": "Madhusudhan Srinivasa",
+    "email": "me@madhums.me",
+    "url": "http://madhums.me/"
+  },
   "name": "imager",
   "description": "Easy way to resize, crop and upload images to Rackspace cloudfiles and Amazon S3",
   "version": "0.2.6",
-  "keywords": ["upload", "image", "graphicsmagick", "imagemagick", "rackspace", "cloudfiles", "resize", "file", "crop", "amazon", "s3"],
+  "keywords": [
+    "upload",
+    "image",
+    "graphicsmagick",
+    "imagemagick",
+    "rackspace",
+    "cloudfiles",
+    "resize",
+    "file",
+    "crop",
+    "amazon",
+    "s3"
+  ],
   "homepage": "https://github.com/madhums/node-imager",
   "repository": {
     "type": "git",
@@ -29,5 +45,29 @@
   },
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --timeout 50000 --reporter spec test/test.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/madhums/node-imager/issues"
+  },
+  "_id": "imager@0.2.6",
+  "dist": {
+    "shasum": "074507f29a734cf88a3e79e14658ef601bfb47c6",
+    "tarball": "http://registry.npmjs.org/imager/-/imager-0.2.6.tgz"
+  },
+  "_from": "imager@*",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "madhums",
+    "email": "madhums8@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "madhums",
+      "email": "madhums8@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "074507f29a734cf88a3e79e14658ef601bfb47c6",
+  "_resolved": "https://registry.npmjs.org/imager/-/imager-0.2.6.tgz",
+  "readme": "ERROR: No README data found!"
 }
